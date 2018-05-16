@@ -1,0 +1,16 @@
+>>
+Script is used     : create_e3_modules.bash
+Script Path        : /home/jhlee/e3/tools/template_gen
+User               : jhlee
+Log Time           : 2018May16-1434-31CEST
+e3 repo Hash       : 5a3deee
+>> 
+EPICS_MODULE_NAME  :                                                           exprtk
+E3_MODULE_SRC_PATH :                                                       exprtk-ess
+EPICS_MODULE_URL   :                                        https://github.com/icshwi
+E3_TARGET_URL      :                                        https://github.com/icshwi
+>> 
+e3 module name     :                                                        e3-exprtk
+e3 module url full :                             https://github.com/icshwi/exprtk-ess
+e3 target url full :                              https://github.com/icshwi/e3-exprtk
+>> 

@@ -1,0 +1,4 @@
+[submodule "exprtk-ess"]
+	path = exprtk-ess
+	url = https://github.com/icshwi/exprtk-ess
+	ignore = all
