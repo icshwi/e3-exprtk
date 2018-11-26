@@ -17,8 +17,8 @@
 # 
 # Author  : Jeong Han Lee
 # email   : han.lee@esss.se
-# Date    : Thursday, September 13 19:10:00 CEST 2018
-# version : 0.0.2
+# Date    : Monday, November 26 09:14:35 CET 2018
+# version : 0.0.3
 #
 
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
@@ -32,6 +32,7 @@ APPSRC:=$(APP)
 
 USR_INCLUDES += -I$(where_am_I)$(APPSRC)
 
+EXCLUDE_ARCHS += linux-ppc64e6500
 
 # Don't include debug symbols in the binary needed for a debugger
 # We don't have a debuuger, so shrink the size from 29MB to 9MB under
