@@ -17,13 +17,15 @@
 # 
 # Author  : Jeong Han Lee
 # email   : han.lee@esss.se
-# Date    : Wednesday, May 16 14:42:20 CEST 2018
-# version : 0.0.1
+# Date    : Thursday, September 13 19:10:00 CEST 2018
+# version : 0.0.2
 #
 
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
-
 include $(E3_REQUIRE_TOOLS)/driver.makefile
+include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
+
+
 
 APP:=exprtk
 APPSRC:=$(APP)
@@ -53,3 +55,7 @@ SOURCES += exprtkWrap.cpp
 db: 
 
 .PHONY: db 
+#
+.PHONY: vlibs
+vlibs:
+#
