@@ -40,6 +40,7 @@ OPT_CXXFLAGS_YES = -O3
 
 HEADERS += exprtkWrap.h
 HEADERS += exprtkIF.h
+HEADERS += exprtk.hpp
 
 
 SOURCES += exprtkIF.cpp

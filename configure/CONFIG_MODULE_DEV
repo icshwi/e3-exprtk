@@ -1,6 +1,6 @@
 EPICS_MODULE_NAME:=exprtk
 #
-EPICS_MODULE_TAG:=anders/dev20181130
+EPICS_MODULE_TAG:=anders_add_func_string
 #
 E3_MODULE_VERSION:=develop
 #
